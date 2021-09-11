@@ -1,0 +1,15 @@
+(module Keystone_5104 (layer F.Cu) (tedit 6005C893)
+  (fp_text reference REF** (at 0 2.7) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Keystone_5104 (at 0 0) (layer F.Fab)
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
+  )
+  (pad 1 smd roundrect (at -5.25 0) (size 2.8 2.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1))
+  (pad 2 smd roundrect (at 5.25 0) (size 2.8 2.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1))
+  (model ${KIPRJMOD}/libCCU/Connector_CCU.3dshapes/Keystone_5104.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)

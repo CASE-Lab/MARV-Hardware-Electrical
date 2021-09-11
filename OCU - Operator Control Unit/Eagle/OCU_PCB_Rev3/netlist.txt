@@ -1,0 +1,429 @@
+Netlist
+
+Exported from OCU_PCB_Rev1.brd at 2020-12-29 19:57
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Net                Part          Pad
+
++3V3               C1            1
+                   C19           1
+                   C20           +
+                   C21           2
+                   C3            1
+                   IC3           3
+                   J6            1
+                   J7            2
+                   J8            1
+                   R1            2
+                   R2            2
+                   SWD1          1
+                   U1            1
+                   U1            17
+                   U2            2
+                   U2            4
+
++5V                C16           1
+                   C17           +
+                   C18           1
+                   IC2           4
+                   IC2           6
+                   J4            1
+                   R10           1
+                   R9            1
+                   U2            3
+
++12V               J10           3
+                   J9            3
+                   R12           2
+
++24V               C14           1
+                   IC1           12
+                   J3            4
+                   R4            2
+
+12V                C10           1
+                   C5            1
+                   C8            1
+                   IC2           7
+                   IC2           8
+                   J10           5
+                   J9            5
+                   R13           2
+
+BTN_GRE            J6            2
+                   R17           2
+                   U1            30
+
+BTN_RED            J8            2
+                   R18           2
+                   U1            29
+
+CAN_N              D4            2
+                   IC3           6
+                   J10           2
+                   J9            2
+                   R23           1
+                   R24           1
+
+CAN_N1             D4            1
+                   IC3           7
+                   J10           1
+                   J9            1
+                   R21           1
+                   R22           1
+
+D                  IC3           1
+                   U1            22
+
+DISP_CS            J7            6
+                   U1            10
+
+DISP_DC            J7            3
+                   U1            9
+
+DISP_DIN           J7            5
+                   U1            13
+
+DISP_RST           J7            7
+                   U1            12
+
+DISP_SCLK          J7            4
+                   U1            11
+
+GND                C1            2
+                   C10           2
+                   C11           2
+                   C16           2
+                   C17           -
+                   C18           2
+                   C19           2
+                   C2            2
+                   C20           -
+                   C21           1
+                   C22           2
+                   C3            2
+                   C4            2
+                   C5            2
+                   C8            2
+                   D1            C
+                   D4            3
+                   IC2           10
+                   IC2           5
+                   IC2           9
+                   IC3           2
+                   J10           4
+                   J10           6
+                   J4            2
+                   J4            MP1
+                   J4            MP2
+                   J6            MP1
+                   J6            MP2
+                   J7            1
+                   J7            MP1
+                   J7            MP2
+                   J8            MP1
+                   J8            MP2
+                   J9            4
+                   J9            6
+                   R11           1
+                   R15           1
+                   R17           1
+                   R18           1
+                   R20           1
+                   R3            2
+                   R8            2
+                   S1            1
+                   S1            2
+                   ST_LINK1:C19  1
+                   ST_LINK1:C2   2
+                   ST_LINK1:C20  1
+                   ST_LINK1:C21  1
+                   ST_LINK1:C22  1
+                   ST_LINK1:C23  2
+                   ST_LINK1:C24  2
+                   ST_LINK1:C3   2
+                   ST_LINK1:D1   C
+                   ST_LINK1:D3   C
+                   ST_LINK1:FP1  2
+                   ST_LINK1:IC3  20
+                   ST_LINK1:IC3  23
+                   ST_LINK1:IC3  35
+                   ST_LINK1:IC3  47
+                   ST_LINK1:IC3  8
+                   ST_LINK1:J1   4
+                   ST_LINK1:J1   MP1
+                   ST_LINK1:J1   MP2
+                   ST_LINK1:R27  1
+                   ST_LINK1:R29  2
+                   ST_LINK1:R30  2
+                   ST_LINK1:R32  2
+                   ST_LINK1:R35  1
+                   ST_LINK1:SWD1 5
+                   ST_LINK1:U1   1
+                   SWD1          5
+                   U1            16
+                   U1            32
+                   U2            1
+
+GNDA               C15           2
+                   IC1           5
+                   Q1            3
+                   R7            1
+
+MAN_S_IN           J5            1
+                   K1            4
+
+MAN_S_OUT          J2            4
+                   J3            1
+                   K1            5
+                   R16           1
+
+MODE_LED           J3            3
+                   R25           1
+
+N$1                J4            3
+                   R14           2
+
+N$2                C7            1
+                   IC1           7
+
+N$3                C7            2
+                   IC1           10
+
+N$4                C22           1
+                   R21           2
+                   R22           2
+                   R23           2
+                   R24           2
+
+N$5                IC2           2
+                   R10           2
+                   R8            1
+
+N$6                C11           1
+                   IC2           1
+
+N$7                C12           1
+                   IC1           16
+
+N$8                C13           1
+                   IC1           3
+
+N$9                D3            C
+                   J5            2
+
+N$10               D1            A
+                   R13           1
+
+N$11               IC2           3
+                   R9            2
+
+N$12               J3            2
+                   K1            8
+
+N$13               C9            2
+                   IC1           6
+
+N$14               IC1           15
+                   R4            1
+                   R5            2
+
+N$15               IC3           8
+                   R19           1
+                   R20           2
+
+N$16               IC1           4
+                   R6            1
+                   R7            2
+
+N$17               Q1            4
+                   R25           2
+
+N$18               D3            A
+                   J2            3
+
+N$22               Q1            1
+                   R16           2
+
+N$24               D2            C
+                   J1            2
+                   K1            1
+
+N$26               C2            1
+                   R1            1
+                   U1            5
+
+N$27               R3            1
+                   U1            31
+
+NRST               C4            1
+                   R2            1
+                   S1            3
+                   S1            4
+                   ST_LINK1:Q1   3
+                   SWD1          3
+                   U1            4
+
+R                  IC3           4
+                   U1            21
+
+RS                 R19           2
+                   U1            3
+
+RX2                ST_LINK1:IC3  12
+                   U1            25
+
+STM_12_INDIC       R11           2
+                   R12           1
+                   U1            7
+
+ST_LINK1:+3V3      ST_LINK1:C19  2
+                   ST_LINK1:C23  1
+                   ST_LINK1:C24  1
+                   ST_LINK1:C3   1
+                   ST_LINK1:D2   A
+                   ST_LINK1:IC3  1
+                   ST_LINK1:IC3  24
+                   ST_LINK1:IC3  36
+                   ST_LINK1:IC3  48
+                   ST_LINK1:IC3  9
+                   ST_LINK1:Q2   3
+                   ST_LINK1:R33  2
+                   ST_LINK1:R34  1
+                   ST_LINK1:SWD1 1
+                   ST_LINK1:U1   2
+                   ST_LINK1:U1   4
+
+ST_LINK1:+5V       ST_LINK1:C2   1
+                   ST_LINK1:F1   1
+                   ST_LINK1:Q1   1
+                   ST_LINK1:R26  2
+                   ST_LINK1:R31  1
+                   ST_LINK1:R4   2
+                   ST_LINK1:U1   3
+
+ST_LINK1:N$1       ST_LINK1:D1   A
+                   ST_LINK1:R2   1
+
+ST_LINK1:N$2       ST_LINK1:D3   A
+                   ST_LINK1:R4   1
+
+ST_LINK1:N$3       ST_LINK1:D2   C
+                   ST_LINK1:R3   1
+
+ST_LINK1:N$4       ST_LINK1:FP1  1
+                   ST_LINK1:J1   5
+
+ST_LINK1:N$7       ST_LINK1:Q2   2
+                   ST_LINK1:R25  2
+
+ST_LINK1:N$8       ST_LINK1:Q2   1
+                   ST_LINK1:R26  1
+                   ST_LINK1:R27  2
+                   ST_LINK1:R28  2
+
+ST_LINK1:N$15      ST_LINK1:IC3  39
+                   ST_LINK1:R30  1
+                   ST_LINK1:R31  2
+
+ST_LINK1:N$16      ST_LINK1:IC3  2
+                   ST_LINK1:R32  1
+
+ST_LINK1:N$21      ST_LINK1:IC3  44
+                   ST_LINK1:R29  1
+
+ST_LINK1:N$22      ST_LINK1:C20  2
+                   ST_LINK1:IC3  5
+                   ST_LINK1:Y2   1
+
+ST_LINK1:N$23      ST_LINK1:IC3  10
+                   ST_LINK1:R34  2
+                   ST_LINK1:R35  2
+
+ST_LINK1:N$24      ST_LINK1:C21  2
+                   ST_LINK1:IC3  6
+                   ST_LINK1:Y2   2
+
+ST_LINK1:N$25      ST_LINK1:C22  2
+                   ST_LINK1:IC3  7
+                   ST_LINK1:R1   1
+                   ST_LINK1:R33  1
+
+ST_LINK1:N$26      ST_LINK1:IC3  25
+                   ST_LINK1:R36  2
+
+ST_LINK1:N$27      ST_LINK1:F1   2
+                   ST_LINK1:J1   1
+
+ST_LINK1:NRST      ST_LINK1:IC3  18
+                   ST_LINK1:Q1   2
+
+ST_LINK1:STLK_LED  ST_LINK1:IC3  30
+                   ST_LINK1:R2   2
+                   ST_LINK1:R3   2
+
+ST_LINK1:STM_NRST  ST_LINK1:R1   2
+                   ST_LINK1:SWD1 3
+
+ST_LINK1:STM_SWCLK ST_LINK1:IC3  37
+                   ST_LINK1:SWD1 4
+
+ST_LINK1:STM_SWDIO ST_LINK1:IC3  34
+                   ST_LINK1:SWD1 2
+
+ST_LINK1:USB_D_N   ST_LINK1:IC3  32
+                   ST_LINK1:J1   2
+
+ST_LINK1:USB_D_P   ST_LINK1:IC3  33
+                   ST_LINK1:J1   3
+                   ST_LINK1:R25  1
+
+ST_LINK1:USB_RENUM ST_LINK1:IC3  38
+                   ST_LINK1:R28  1
+
+SWDCLK             ST_LINK1:IC3  15
+                   ST_LINK1:IC3  26
+                   SWD1          4
+                   U1            24
+
+SWDIO              ST_LINK1:IC3  27
+                   ST_LINK1:R36  1
+                   SWD1          2
+                   U1            23
+
+SWO                ST_LINK1:IC3  31
+                   SWD1          6
+                   U1            26
+
+S_12V              C6            1
+                   IC1           1
+                   IC1           11
+                   IC1           13
+                   J1            1
+                   J2            1
+                   K1            9
+
+S_GND              C12           2
+                   C13           2
+                   C14           2
+                   C15           1
+                   C6            2
+                   C9            1
+                   D2            A
+                   IC1           14
+                   IC1           17
+                   IC1           2
+                   J2            2
+                   K1            12
+                   Q1            2
+                   R5            1
+                   R6            2
+
+TX2                ST_LINK1:IC3  13
+                   U1            8
+
+WHEEL              R14           1
+                   R15           2
+                   U1            6
+

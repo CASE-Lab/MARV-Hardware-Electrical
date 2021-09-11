@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Connector_CCU)(type KiCad)(uri ${KIPRJMOD}/libCCU/Connector_CCU.pretty)(options "")(descr "Connectors related to CCU project"))
+)

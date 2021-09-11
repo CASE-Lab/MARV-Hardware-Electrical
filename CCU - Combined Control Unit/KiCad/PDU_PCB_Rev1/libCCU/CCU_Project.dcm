@@ -1,0 +1,25 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC2950ITS8-1
+D Linear Technology push button controller with wide input voltage
+F https://www.analog.com/media/en/technical-documentation/data-sheets/295012fd.pdf
+$ENDCMP
+#
+$CMP LTC2955xDDB-1
+D Linear Technology Push Button Controller PBC with automatic turn-on 1.5-36 V
+K PBC Push Button Controller
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2955fa.pdf
+$ENDCMP
+#
+$CMP TPS25940x-Q1
+D 2.7-V to 18-V eFuse with Integrated Short-to-Battery Protection
+K eFuse
+F http://www.ti.com/lit/ds/symlink/tps25940-q1.pdf
+$ENDCMP
+#
+$CMP TPS25982
+D eFuse 15 A
+F https://www.ti.com/lit/ds/symlink/tps25982.pdf?ts=1610792832179&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS25982
+$ENDCMP
+#
+#End Doc Library
