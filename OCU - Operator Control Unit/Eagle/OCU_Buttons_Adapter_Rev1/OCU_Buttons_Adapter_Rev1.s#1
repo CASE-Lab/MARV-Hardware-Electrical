@@ -561,14 +561,16 @@ Source: &lt;a href="https://www.molex.com/pdm_docs/sd/1053091102_sd.pdf"&gt; Dat
 <plain>
 <text x="111.76" y="132.08" size="1.778" layer="97">Green button</text>
 <text x="111.76" y="116.84" size="1.778" layer="97">Red button</text>
-<text x="111.76" y="78.74" size="1.778" layer="97">Up button
-~3.3V level</text>
-<text x="111.76" y="63.5" size="1.778" layer="97">Down button
-~1.67V level</text>
+<text x="111.76" y="76.2" size="1.778" layer="97">Up button
+~3.3V level
+=&gt; ~2.18V after voltage divider</text>
+<text x="111.76" y="60.96" size="1.778" layer="97">Down button
+~1.67V level
+=&gt; ~1.1V after voltage divider</text>
 <wire x1="33.02" y1="109.22" x2="33.02" y2="40.64" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="33.02" y1="40.64" x2="132.08" y2="40.64" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="132.08" y1="40.64" x2="132.08" y2="109.22" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="132.08" y1="109.22" x2="33.02" y2="109.22" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="33.02" y1="40.64" x2="144.78" y2="40.64" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="144.78" y1="40.64" x2="144.78" y2="109.22" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="144.78" y1="109.22" x2="33.02" y2="109.22" width="0.1524" layer="94" style="shortdash"/>
 <text x="91.44" y="101.6" size="1.778" layer="94">Two buttons to single analogue input</text>
 <text x="53.34" y="81.28" size="1.778" layer="97">1. 5V
 2. GND
