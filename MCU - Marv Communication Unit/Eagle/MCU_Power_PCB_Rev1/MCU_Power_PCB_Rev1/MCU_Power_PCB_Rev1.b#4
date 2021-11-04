@@ -302,12 +302,34 @@ Source: Comchip CGRM4001-G.pdf</description>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
+<package name="C0603" urn="urn:adsk.eagle:footprint:5332297/1" library_version="16">
+<description>&lt;b&gt;Chip CAPACITOR 0603 (1608 Metric)&lt;/b&gt;</description>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="R0603" urn="urn:adsk.eagle:package:5332309/4" type="model" library_version="16">
 <description>&lt;b&gt;Chip RESISTOR 0603 (1608 Metric)&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="R0603"/>
+</packageinstances>
+</package3d>
+<package3d name="C0603" urn="urn:adsk.eagle:package:5332305/5" type="model" library_version="16">
+<description>&lt;b&gt;Chip CAPACITOR 0603 (1608 Metric)&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="C0603"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -345,6 +367,183 @@ Source: </description>
 </packageinstances>
 </package3d>
 </packages3d>
+</library>
+<library name="39-30-3035">
+<description>&lt;Molex Mini-Fit Jr 5569, 3 Way, 1 Row, Right Angle PCB Header&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="39303035">
+<description>&lt;b&gt;39-30-3035-2&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.85" diameter="2.775"/>
+<pad name="2" x="-4.2" y="0" drill="1.85" diameter="2.775"/>
+<pad name="3" x="-8.4" y="0" drill="1.85" diameter="2.775"/>
+<hole x="-8.4" y="-7.3" drill="3.05"/>
+<hole x="0" y="-7.3" drill="3.05"/>
+<text x="-4.2" y="-6.081" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-4.2" y="-6.081" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-11.1" y1="-1.1" x2="2.7" y2="-1.1" width="0.2" layer="51"/>
+<wire x1="2.7" y1="-1.1" x2="2.7" y2="-13.55" width="0.2" layer="51"/>
+<wire x1="2.7" y1="-13.55" x2="-11.1" y2="-13.55" width="0.2" layer="51"/>
+<wire x1="-11.1" y1="-13.55" x2="-11.1" y2="-1.1" width="0.2" layer="51"/>
+<wire x1="-12.1" y1="2.388" x2="3.7" y2="2.388" width="0.1" layer="51"/>
+<wire x1="3.7" y1="2.388" x2="3.7" y2="-14.55" width="0.1" layer="51"/>
+<wire x1="3.7" y1="-14.55" x2="-12.1" y2="-14.55" width="0.1" layer="51"/>
+<wire x1="-12.1" y1="-14.55" x2="-12.1" y2="2.388" width="0.1" layer="51"/>
+<wire x1="-11.1" y1="-1.1" x2="-11.1" y2="-13.55" width="0.1" layer="21"/>
+<wire x1="-11.1" y1="-13.55" x2="2.7" y2="-13.55" width="0.1" layer="21"/>
+<wire x1="2.7" y1="-13.55" x2="2.7" y2="-1.1" width="0.1" layer="21"/>
+<wire x1="1.8" y1="1.225" x2="1.8" y2="1.225" width="0.3" layer="21"/>
+<wire x1="1.8" y1="1.225" x2="1.9" y2="1.225" width="0.3" layer="21" curve="180"/>
+<wire x1="1.9" y1="1.225" x2="1.9" y2="1.225" width="0.3" layer="21"/>
+<wire x1="1.9" y1="1.225" x2="1.8" y2="1.225" width="0.3" layer="21" curve="180"/>
+</package>
+</packages>
+</library>
+<library name="39-30-3046">
+<description>&lt;Molex MINI-FIT JR. Series, Series Number 5569, 4.2mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 12A&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="39303046">
+<description>&lt;b&gt;39-30-3046-2&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.8" diameter="2.7"/>
+<pad name="2" x="-4.2" y="0" drill="1.8" diameter="2.7"/>
+<pad name="3" x="-8.4" y="0" drill="1.8" diameter="2.7"/>
+<pad name="4" x="-12.6" y="0" drill="1.8" diameter="2.7"/>
+<hole x="-12.6" y="-7.3" drill="3"/>
+<hole x="0" y="-7.3" drill="3"/>
+<text x="-6.3" y="-6.275" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-6.3" y="-6.275" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-15.3" y1="-1.1" x2="2.7" y2="-1.1" width="0.1" layer="51"/>
+<wire x1="2.7" y1="-1.1" x2="2.7" y2="-13.9" width="0.1" layer="51"/>
+<wire x1="2.7" y1="-13.9" x2="-15.3" y2="-13.9" width="0.1" layer="51"/>
+<wire x1="-15.3" y1="-13.9" x2="-15.3" y2="-1.1" width="0.1" layer="51"/>
+<wire x1="-16.3" y1="2.35" x2="3.7" y2="2.35" width="0.1" layer="51"/>
+<wire x1="3.7" y1="2.35" x2="3.7" y2="-14.9" width="0.1" layer="51"/>
+<wire x1="3.7" y1="-14.9" x2="-16.3" y2="-14.9" width="0.1" layer="51"/>
+<wire x1="-16.3" y1="-14.9" x2="-16.3" y2="2.35" width="0.1" layer="51"/>
+<wire x1="-15.3" y1="-1.1" x2="-15.3" y2="-13.9" width="0.2" layer="21"/>
+<wire x1="-15.3" y1="-13.9" x2="2.7" y2="-13.9" width="0.2" layer="21"/>
+<wire x1="2.7" y1="-13.9" x2="2.7" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="0" y1="1.8" x2="0" y2="1.8" width="0.1" layer="21"/>
+<wire x1="0" y1="1.8" x2="0" y2="1.9" width="0.1" layer="21" curve="180"/>
+<wire x1="0" y1="1.9" x2="0" y2="1.9" width="0.1" layer="21"/>
+<wire x1="0" y1="1.9" x2="0" y2="1.8" width="0.1" layer="21" curve="180"/>
+</package>
+</packages>
+</library>
+<library name="3522-2">
+<description>&lt;Double ATO 257 fuseholder,15A 500Vac Keystone 15A PCB Mount Fuse Holder for 5.2 x 0.64mm Automotive Fuse, 500 V ac&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="35222">
+<description>&lt;b&gt;3522-2&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-7.11" y="-1.85" drill="2.54" diameter="3.84"/>
+<pad name="2" x="7.11" y="-1.85" drill="2.54" diameter="3.84"/>
+<pad name="3" x="-2.03" y="-1.85" drill="2.54" diameter="3.84"/>
+<pad name="4" x="2.03" y="-1.85" drill="2.54" diameter="3.84"/>
+<text x="0" y="-2.185" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-2.185" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-9.65" y1="0" x2="9.65" y2="0" width="0.254" layer="51"/>
+<wire x1="9.65" y1="0" x2="9.65" y2="-4.44" width="0.254" layer="51"/>
+<wire x1="9.65" y1="-4.44" x2="-9.65" y2="-4.44" width="0.254" layer="51"/>
+<wire x1="-9.65" y1="-4.44" x2="-9.65" y2="0" width="0.254" layer="51"/>
+<wire x1="-10.65" y1="1.07" x2="10.65" y2="1.07" width="0.1" layer="51"/>
+<wire x1="10.65" y1="1.07" x2="10.65" y2="-5.44" width="0.1" layer="51"/>
+<wire x1="10.65" y1="-5.44" x2="-10.65" y2="-5.44" width="0.1" layer="51"/>
+<wire x1="-10.65" y1="-5.44" x2="-10.65" y2="1.07" width="0.1" layer="51"/>
+<wire x1="-9.65" y1="0" x2="-9.65" y2="-4.44" width="0.254" layer="21"/>
+<wire x1="-9.65" y1="-4.44" x2="9.65" y2="-4.44" width="0.254" layer="21"/>
+<wire x1="9.65" y1="-4.44" x2="9.65" y2="0" width="0.254" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="39-30-0020">
+<description>&lt;MOLEX - 39-30-0020 - HEADER, MINI-FIT, R/A, DUAL ROW, 2WAY&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="39-30-1020_1">
+<description>&lt;b&gt;39-30-1020&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="13.9" drill="1.85" diameter="2.8"/>
+<pad name="2" x="0" y="19.4" drill="1.85" diameter="2.8"/>
+<hole x="0" y="6.6" drill="3.05"/>
+<text x="-0.344609375" y="8.984859375" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.344609375" y="8.984859375" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.7" y1="12.8" x2="2.7" y2="12.8" width="0.2" layer="51"/>
+<wire x1="2.7" y1="12.8" x2="2.7" y2="0" width="0.2" layer="51"/>
+<wire x1="2.7" y1="0" x2="-2.7" y2="0" width="0.2" layer="51"/>
+<wire x1="-2.7" y1="0" x2="-2.7" y2="12.8" width="0.2" layer="51"/>
+<wire x1="-2.7" y1="12.8" x2="-2.7" y2="0" width="0.2" layer="21"/>
+<wire x1="-2.7" y1="0" x2="2.7" y2="0" width="0.2" layer="21"/>
+<wire x1="2.7" y1="0" x2="2.7" y2="12.8" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="IPD90P03P4-04">
+<description>&lt;MOSFET P-Channel 30V 90A TO252-3 Infineon IPD90P03P4-04 P-channel MOSFET Transistor, 90 A, 30 V, 3-Pin TO-252&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="PG-TO252-3-11">
+<description>&lt;b&gt;PG-TO252-3-11&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.28" y="-8.3" dx="2.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="2" x="2.28" y="-8.3" dx="2.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="3" x="0" y="-2" dx="6.4" dy="5.8" layer="1" rot="R90"/>
+<text x="-0.478" y="-8.688" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.478" y="-8.688" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.25" y1="0" x2="3.25" y2="0" width="0.2" layer="51"/>
+<wire x1="3.25" y1="0" x2="3.25" y2="-6.22" width="0.2" layer="51"/>
+<wire x1="3.25" y1="-6.22" x2="-3.25" y2="-6.22" width="0.2" layer="51"/>
+<wire x1="-3.25" y1="-6.22" x2="-3.25" y2="0" width="0.2" layer="51"/>
+<wire x1="-3.25" y1="0" x2="-3.25" y2="-6.22" width="0.2" layer="21"/>
+<wire x1="-3.25" y1="-6.22" x2="3.25" y2="-6.22" width="0.2" layer="21"/>
+<wire x1="3.25" y1="-6.22" x2="3.25" y2="0" width="0.2" layer="21"/>
+<circle x="-3.487" y="-9.38" radius="0.104809375" width="0.2" layer="25"/>
+</package>
+</packages>
+</library>
+<library name="CD4011BM">
+<description>&lt;Logic Gates Quad 2-Input&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOIC127P600X175-14N">
+<description>&lt;b&gt;D&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.712" y="3.81" dx="1.525" dy="0.65" layer="1"/>
+<smd name="2" x="-2.712" y="2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="3" x="-2.712" y="1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="4" x="-2.712" y="0" dx="1.525" dy="0.65" layer="1"/>
+<smd name="5" x="-2.712" y="-1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="6" x="-2.712" y="-2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="7" x="-2.712" y="-3.81" dx="1.525" dy="0.65" layer="1"/>
+<smd name="8" x="2.712" y="-3.81" dx="1.525" dy="0.65" layer="1"/>
+<smd name="9" x="2.712" y="-2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="10" x="2.712" y="-1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="11" x="2.712" y="0" dx="1.525" dy="0.65" layer="1"/>
+<smd name="12" x="2.712" y="1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="13" x="2.712" y="2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="14" x="2.712" y="3.81" dx="1.525" dy="0.65" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.725" y1="4.625" x2="3.725" y2="4.625" width="0.05" layer="51"/>
+<wire x1="3.725" y1="4.625" x2="3.725" y2="-4.625" width="0.05" layer="51"/>
+<wire x1="3.725" y1="-4.625" x2="-3.725" y2="-4.625" width="0.05" layer="51"/>
+<wire x1="-3.725" y1="-4.625" x2="-3.725" y2="4.625" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="4.325" x2="1.95" y2="4.325" width="0.1" layer="51"/>
+<wire x1="1.95" y1="4.325" x2="1.95" y2="-4.325" width="0.1" layer="51"/>
+<wire x1="1.95" y1="-4.325" x2="-1.95" y2="-4.325" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="-4.325" x2="-1.95" y2="4.325" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="3.055" x2="-0.68" y2="4.325" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="4.325" x2="1.6" y2="4.325" width="0.2" layer="21"/>
+<wire x1="1.6" y1="4.325" x2="1.6" y2="-4.325" width="0.2" layer="21"/>
+<wire x1="1.6" y1="-4.325" x2="-1.6" y2="-4.325" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="-4.325" x2="-1.6" y2="4.325" width="0.2" layer="21"/>
+<wire x1="-3.475" y1="4.485" x2="-1.95" y2="4.485" width="0.2" layer="21"/>
+</package>
+</packages>
 </library>
 </libraries>
 <attributes>
@@ -567,70 +766,216 @@ design rules under a new name.</description>
 <attribute name="NAME" x="3.675" y="-43.4666" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="3.7004" y="-45.8034" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="D6" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD-123_MINI-SMA" package3d_urn="urn:adsk.eagle:package:43457/2" value="CGRM4001-G" x="0.5" y="-50.5" smashed="yes">
+<element name="D6" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD-123_MINI-SMA" package3d_urn="urn:adsk.eagle:package:43457/2" value="10.10V" x="0.5" y="-50.5" smashed="yes">
 <attribute name="NAME" x="-2.548" y="-49.357" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="0" x="0.5" y="-50.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-2.548" y="-52.913" size="1.27" layer="27"/>
 </element>
-<element name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD-123_MINI-SMA" package3d_urn="urn:adsk.eagle:package:43457/2" value="CGRM4001-G" x="0.5" y="-56.5" smashed="yes">
+<element name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD-123_MINI-SMA" package3d_urn="urn:adsk.eagle:package:43457/2" value="10.00V" x="0.5" y="-56.5" smashed="yes">
 <attribute name="NAME" x="-2.548" y="-55.357" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="0" x="0.5" y="-56.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-2.548" y="-58.913" size="1.27" layer="27"/>
 </element>
-<element name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD-123_MINI-SMA" package3d_urn="urn:adsk.eagle:package:43457/2" value="CGRM4001-G" x="0.5" y="-62.5" smashed="yes">
+<element name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD-123_MINI-SMA" package3d_urn="urn:adsk.eagle:package:43457/2" value="10.71V" x="0.5" y="-62.5" smashed="yes">
 <attribute name="NAME" x="-2.548" y="-61.357" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="0" x="0.5" y="-62.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-2.548" y="-64.913" size="1.27" layer="27"/>
 </element>
-<element name="D9" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD-123_MINI-SMA" package3d_urn="urn:adsk.eagle:package:43457/2" value="CGRM4001-G" x="0.5" y="-68.5" smashed="yes">
+<element name="D9" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD-123_MINI-SMA" package3d_urn="urn:adsk.eagle:package:43457/2" value="11.38V" x="0.5" y="-68.5" smashed="yes">
 <attribute name="NAME" x="-2.548" y="-67.357" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="0" x="0.5" y="-68.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-2.548" y="-70.913" size="1.27" layer="27"/>
 </element>
-<element name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD-123_MINI-SMA" package3d_urn="urn:adsk.eagle:package:43457/2" value="CGRM4001-G" x="0.5" y="-74.5" smashed="yes">
+<element name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD-123_MINI-SMA" package3d_urn="urn:adsk.eagle:package:43457/2" value="12.12V" x="0.5" y="-74.5" smashed="yes">
 <attribute name="NAME" x="-2.548" y="-73.357" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="0" x="0.5" y="-74.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-2.548" y="-76.913" size="1.27" layer="27"/>
 </element>
-<element name="R1" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="R0603" package3d_urn="urn:adsk.eagle:package:5332309/4" value="" x="-1.5" y="-80" smashed="yes">
+<element name="R1" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="R0603" package3d_urn="urn:adsk.eagle:package:5332309/4" value="1K" x="-1.5" y="-80" smashed="yes">
 <attribute name="NAME" x="-2.135" y="-79.365" size="1.27" layer="25"/>
 <attribute name="VALUE" x="-2.135" y="-81.905" size="1.27" layer="27"/>
 </element>
-<element name="R2" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="R0603" package3d_urn="urn:adsk.eagle:package:5332309/4" value="" x="-1.5" y="-83.5" smashed="yes">
+<element name="R2" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="R0603" package3d_urn="urn:adsk.eagle:package:5332309/4" value="1K" x="-1.5" y="-83.5" smashed="yes">
 <attribute name="NAME" x="-2.135" y="-82.865" size="1.27" layer="25"/>
 <attribute name="VALUE" x="-2.135" y="-85.405" size="1.27" layer="27"/>
 </element>
-<element name="R3" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="R0603" package3d_urn="urn:adsk.eagle:package:5332309/4" value="" x="-1.5" y="-87" smashed="yes">
+<element name="R3" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="R0603" package3d_urn="urn:adsk.eagle:package:5332309/4" value="1K" x="-1.5" y="-87" smashed="yes">
 <attribute name="NAME" x="-2.135" y="-86.365" size="1.27" layer="25"/>
 <attribute name="VALUE" x="-2.135" y="-88.905" size="1.27" layer="27"/>
 </element>
-<element name="R4" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="R0603" package3d_urn="urn:adsk.eagle:package:5332309/4" value="" x="-1.5" y="-90.5" smashed="yes">
+<element name="R4" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="R0603" package3d_urn="urn:adsk.eagle:package:5332309/4" value="1K" x="-1.5" y="-90.5" smashed="yes">
 <attribute name="NAME" x="-2.135" y="-89.865" size="1.27" layer="25"/>
 <attribute name="VALUE" x="-2.135" y="-92.405" size="1.27" layer="27"/>
 </element>
-<element name="R5" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="R0603" package3d_urn="urn:adsk.eagle:package:5332309/4" value="" x="-1.5" y="-94" smashed="yes">
+<element name="R5" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="R0603" package3d_urn="urn:adsk.eagle:package:5332309/4" value="1K" x="-1.5" y="-94" smashed="yes">
 <attribute name="NAME" x="-2.135" y="-93.365" size="1.27" layer="25"/>
 <attribute name="VALUE" x="-2.135" y="-95.905" size="1.27" layer="27"/>
 </element>
-<element name="Q1" library="CASE-Transistors" library_urn="urn:adsk.eagle:library:7770837" package="SOT323" package3d_urn="urn:adsk.eagle:package:7890775/1" value="2N7002PW,115" x="-1.5" y="-98.5" smashed="yes">
-<attribute name="NAME" x="-2.5" y="-97.2" size="1.27" layer="25"/>
-<attribute name="VALUE" x="-2.5" y="-101.1" size="1.27" layer="27"/>
-</element>
-<element name="R6" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="R0603" package3d_urn="urn:adsk.eagle:package:5332309/4" value="" x="-1.5" y="-104.5" smashed="yes">
+<element name="R6" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="R0603" package3d_urn="urn:adsk.eagle:package:5332309/4" value="100K" x="-1.5" y="-104.5" smashed="yes">
 <attribute name="NAME" x="-2.135" y="-103.865" size="1.27" layer="25"/>
 <attribute name="VALUE" x="-2.135" y="-106.405" size="1.27" layer="27"/>
 </element>
-<element name="R7" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="R0603" package3d_urn="urn:adsk.eagle:package:5332309/4" value="" x="-1.5" y="-115" smashed="yes">
-<attribute name="NAME" x="-2.135" y="-114.365" size="1.27" layer="25"/>
-<attribute name="VALUE" x="-2.135" y="-116.905" size="1.27" layer="27"/>
+<element name="J1" library="39-30-3035" package="39303035" value="39-30-3035" x="-7.5" y="-123" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70266945" x="-7.5" y="-123" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Molex Mini-Fit Jr 5569, 3 Way, 1 Row, Right Angle PCB Header" x="-7.5" y="-123" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.8mm" x="-7.5" y="-123" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Molex" x="-7.5" y="-123" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="39-30-3035" x="-7.5" y="-123" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-11.7" y="-129.081" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="6705849P" x="-7.5" y="-123" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/6705849P" x="-7.5" y="-123" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-11.7" y="-129.081" size="1.27" layer="27" align="center"/>
 </element>
-<element name="R8" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="R0603" package3d_urn="urn:adsk.eagle:package:5332309/4" value="" x="-1.5" y="-118.5" smashed="yes">
-<attribute name="NAME" x="-2.135" y="-117.865" size="1.27" layer="25"/>
-<attribute name="VALUE" x="-2.135" y="-120.405" size="1.27" layer="27"/>
+<element name="J2" library="39-30-3035" package="39303035" value="39-30-3035" x="-23.5" y="-123" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70266945" x="-23.5" y="-123" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Molex Mini-Fit Jr 5569, 3 Way, 1 Row, Right Angle PCB Header" x="-23.5" y="-123" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.8mm" x="-23.5" y="-123" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Molex" x="-23.5" y="-123" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="39-30-3035" x="-23.5" y="-123" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-27.7" y="-129.081" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="6705849P" x="-23.5" y="-123" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/6705849P" x="-23.5" y="-123" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-27.7" y="-129.081" size="1.27" layer="27" align="center"/>
 </element>
-<element name="Q2" library="CASE-Transistors" library_urn="urn:adsk.eagle:library:7770837" package="SOT323" package3d_urn="urn:adsk.eagle:package:7890775/1" value="2N7002PW,115" x="-1.5" y="-123" smashed="yes">
-<attribute name="NAME" x="-2.5" y="-121.7" size="1.27" layer="25"/>
-<attribute name="VALUE" x="-2.5" y="-125.6" size="1.27" layer="27"/>
+<element name="J3" library="39-30-3046" package="39303046" value="39-30-3046" x="-19" y="-140.5" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70374137" x="-19" y="-140.5" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Molex MINI-FIT JR. Series, Series Number 5569, 4.2mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 12A" x="-19" y="-140.5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6.18mm" x="-19" y="-140.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Molex" x="-19" y="-140.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="39-30-3046" x="-19" y="-140.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-25.3" y="-146.775" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="6705859P" x="-19" y="-140.5" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/6705859P" x="-19" y="-140.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-25.3" y="-146.775" size="1.27" layer="27" align="center"/>
+</element>
+<element name="J4" library="3522-2" package="35222" value="3522-2" x="-24.5" y="-157" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70181615" x="-24.5" y="-157" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Double ATO 257 fuseholder,15A 500Vac Keystone 15A PCB Mount Fuse Holder for 5.2 x 0.64mm Automotive Fuse, 500 V ac" x="-24.5" y="-157" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="-24.5" y="-157" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-24.5" y="-157" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="3522-2" x="-24.5" y="-157" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-24.5" y="-159.185" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1676068" x="-24.5" y="-157" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1676068" x="-24.5" y="-157" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-24.5" y="-159.185" size="1.27" layer="27" align="center"/>
+</element>
+<element name="J5" library="3522-2" package="35222" value="3522-2" x="-32" y="-167.5" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70181615" x="-32" y="-167.5" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Double ATO 257 fuseholder,15A 500Vac Keystone 15A PCB Mount Fuse Holder for 5.2 x 0.64mm Automotive Fuse, 500 V ac" x="-32" y="-167.5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="-32" y="-167.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Keystone Electronics" x="-32" y="-167.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="3522-2" x="-32" y="-167.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-32" y="-169.685" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1676068" x="-32" y="-167.5" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1676068" x="-32" y="-167.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-32" y="-169.685" size="1.27" layer="27" align="center"/>
+</element>
+<element name="J6" library="39-30-0020" package="39-30-1020_1" value="39-30-0020" x="-46.5" y="-172.5" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70266919" x="-46.5" y="-172.5" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="MOLEX - 39-30-0020 - HEADER, MINI-FIT, R/A, DUAL ROW, 2WAY" x="-46.5" y="-172.5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-46.5" y="-172.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Molex" x="-46.5" y="-172.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="39-30-0020" x="-46.5" y="-172.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-46.844609375" y="-163.515140625" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="6705708P" x="-46.5" y="-172.5" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/6705708P" x="-46.5" y="-172.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-46.844609375" y="-163.515140625" size="1.27" layer="27" align="center"/>
+</element>
+<element name="J7" library="39-30-0020" package="39-30-1020_1" value="39-30-0020" x="-55.5" y="-173" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70266919" x="-55.5" y="-173" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="MOLEX - 39-30-0020 - HEADER, MINI-FIT, R/A, DUAL ROW, 2WAY" x="-55.5" y="-173" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-55.5" y="-173" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Molex" x="-55.5" y="-173" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="39-30-0020" x="-55.5" y="-173" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-55.844609375" y="-164.015140625" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="6705708P" x="-55.5" y="-173" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/6705708P" x="-55.5" y="-173" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-55.844609375" y="-164.015140625" size="1.27" layer="27" align="center"/>
+</element>
+<element name="J8" library="39-30-0020" package="39-30-1020_1" value="39-30-0020" x="-64.5" y="-173.5" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70266919" x="-64.5" y="-173.5" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="MOLEX - 39-30-0020 - HEADER, MINI-FIT, R/A, DUAL ROW, 2WAY" x="-64.5" y="-173.5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-64.5" y="-173.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Molex" x="-64.5" y="-173.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="39-30-0020" x="-64.5" y="-173.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-64.844609375" y="-164.515140625" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="6705708P" x="-64.5" y="-173.5" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/6705708P" x="-64.5" y="-173.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-64.844609375" y="-164.515140625" size="1.27" layer="27" align="center"/>
+</element>
+<element name="J9" library="39-30-0020" package="39-30-1020_1" value="39-30-0020" x="-73.5" y="-174" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70266919" x="-73.5" y="-174" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="MOLEX - 39-30-0020 - HEADER, MINI-FIT, R/A, DUAL ROW, 2WAY" x="-73.5" y="-174" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-73.5" y="-174" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Molex" x="-73.5" y="-174" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="39-30-0020" x="-73.5" y="-174" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-73.844609375" y="-165.015140625" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="6705708P" x="-73.5" y="-174" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/6705708P" x="-73.5" y="-174" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-73.844609375" y="-165.015140625" size="1.27" layer="27" align="center"/>
+</element>
+<element name="Q4" library="IPD90P03P4-04" package="PG-TO252-3-11" value="IPD90P03P4-04" x="-82.5" y="-165" smashed="yes">
+<attribute name="DESCRIPTION" value="MOSFET P-Channel 30V 90A TO252-3 Infineon IPD90P03P4-04 P-channel MOSFET Transistor, 90 A, 30 V, 3-Pin TO-252" x="-82.5" y="-165" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-82.5" y="-165" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Infineon" x="-82.5" y="-165" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="IPD90P03P4-04" x="-82.5" y="-165" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-82.978" y="-173.688" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="-82.5" y="-165" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="-82.5" y="-165" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-82.978" y="-173.688" size="1.27" layer="27" align="center"/>
+</element>
+<element name="R10" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="R0603" package3d_urn="urn:adsk.eagle:package:5332309/4" value="100K" x="-88" y="-177.5" smashed="yes">
+<attribute name="NAME" x="-88.635" y="-176.865" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-88.635" y="-179.405" size="1.27" layer="27"/>
+</element>
+<element name="D11" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD-123_MINI-SMA" package3d_urn="urn:adsk.eagle:package:43457/2" value="12.00V" x="-86" y="-183" smashed="yes">
+<attribute name="NAME" x="-89.048" y="-181.857" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="0" x="-86" y="-183" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-89.048" y="-185.413" size="1.27" layer="27"/>
+</element>
+<element name="Q6" library="CASE-Transistors" library_urn="urn:adsk.eagle:library:7770837" package="SOT323" package3d_urn="urn:adsk.eagle:package:7890775/1" value="2N7002PW,115" x="-88" y="-196" smashed="yes">
+<attribute name="NAME" x="-89" y="-194.7" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-89" y="-198.6" size="1.27" layer="27"/>
+</element>
+<element name="R11" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="R0603" package3d_urn="urn:adsk.eagle:package:5332309/4" value="100K" x="-88" y="-202" smashed="yes">
+<attribute name="NAME" x="-88.635" y="-201.365" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-88.635" y="-203.905" size="1.27" layer="27"/>
+</element>
+<element name="IC3" library="CD4011BM" package="SOIC127P600X175-14N" value="CD4011BM" x="-104.5" y="-199.5" smashed="yes">
+<attribute name="DESCRIPTION" value="Logic Gates Quad 2-Input" x="-104.5" y="-199.5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="-104.5" y="-199.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-104.5" y="-199.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CD4011BM" x="-104.5" y="-199.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-104.5" y="-199.5" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="2508238607" x="-104.5" y="-199.5" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/2508238607" x="-104.5" y="-199.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-104.5" y="-199.5" size="1.27" layer="27" align="center"/>
+</element>
+<element name="Q1" library="IPD90P03P4-04" package="PG-TO252-3-11" value="IPD90P03P4-04" x="-113" y="-194.5" smashed="yes">
+<attribute name="DESCRIPTION" value="MOSFET P-Channel 30V 90A TO252-3 Infineon IPD90P03P4-04 P-channel MOSFET Transistor, 90 A, 30 V, 3-Pin TO-252" x="-113" y="-194.5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-113" y="-194.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Infineon" x="-113" y="-194.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="IPD90P03P4-04" x="-113" y="-194.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-113.478" y="-203.188" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="-113" y="-194.5" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="-113" y="-194.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-113.478" y="-203.188" size="1.27" layer="27" align="center"/>
+</element>
+<element name="R7" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="R0603" package3d_urn="urn:adsk.eagle:package:5332309/4" value="100K" x="-118.5" y="-207" smashed="yes">
+<attribute name="NAME" x="-119.135" y="-206.365" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-119.135" y="-208.905" size="1.27" layer="27"/>
+</element>
+<element name="C1" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="C0603" package3d_urn="urn:adsk.eagle:package:5332305/5" value="1 uF" x="-118.5" y="-212" smashed="yes">
+<attribute name="NAME" x="-119.135" y="-211.365" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-119.135" y="-213.905" size="1.27" layer="27"/>
+</element>
+<element name="C2" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="C0603" package3d_urn="urn:adsk.eagle:package:5332305/5" value="0.1 uF" x="-118.5" y="-215.5" smashed="yes">
+<attribute name="NAME" x="-119.135" y="-214.865" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-119.135" y="-217.405" size="1.27" layer="27"/>
+</element>
+<element name="R8" library="CASE-RCL" library_urn="urn:adsk.eagle:library:5287922" package="R0603" package3d_urn="urn:adsk.eagle:package:5332309/4" value="100K" x="-118.5" y="-219" smashed="yes">
+<attribute name="NAME" x="-119.135" y="-218.365" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-119.135" y="-220.905" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -642,7 +987,11 @@ design rules under a new name.</description>
 <signal name="N$4">
 <contactref element="D7" pad="A"/>
 <contactref element="R2" pad="2"/>
+<contactref element="Q6" pad="1"/>
+<contactref element="R11" pad="1"/>
 <wire x1="2.3" y1="-56.5" x2="-0.65" y2="-83.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-88.65" y1="-196.925" x2="-0.65" y2="-83.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-88.85" y1="-202" x2="-88.65" y2="-196.925" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="D8" pad="A"/>
@@ -674,45 +1023,51 @@ design rules under a new name.</description>
 <contactref element="D5" pad="A"/>
 <wire x1="-0.77" y1="-44" x2="-2.35" y2="-94" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$1">
-<contactref element="D6" pad="A"/>
-<contactref element="Q1" pad="1"/>
-<contactref element="R6" pad="1"/>
-<wire x1="-2.15" y1="-99.425" x2="-2.35" y2="-104.5" width="0" layer="19" extent="1-1"/>
-<wire x1="2.3" y1="-50.5" x2="-2.15" y2="-99.425" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="GND">
-<contactref element="R6" pad="2"/>
-<contactref element="R8" pad="2"/>
-<contactref element="Q1" pad="2"/>
-<contactref element="Q2" pad="2"/>
-<wire x1="-0.65" y1="-118.5" x2="-0.85" y2="-123.925" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.65" y1="-104.5" x2="-0.65" y2="-118.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.85" y1="-99.425" x2="-0.65" y2="-104.5" width="0" layer="19" extent="1-1"/>
+<contactref element="J6" pad="1"/>
+<contactref element="J7" pad="1"/>
+<contactref element="J8" pad="1"/>
+<contactref element="J9" pad="1"/>
+<contactref element="J1" pad="1"/>
+<contactref element="J2" pad="1"/>
+<contactref element="R10" pad="2"/>
+<contactref element="Q6" pad="2"/>
+<contactref element="D1" pad="K"/>
+<contactref element="R11" pad="2"/>
+<contactref element="R6" pad="1"/>
+<contactref element="IC3" pad="7"/>
+<contactref element="C1" pad="2"/>
+<contactref element="C2" pad="2"/>
+<wire x1="-64.5" y1="-159.6" x2="-73.5" y2="-160.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.5" y1="-159.1" x2="-64.5" y2="-159.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.5" y1="-158.6" x2="-55.5" y2="-159.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.15" y1="-177.5" x2="-73.5" y2="-160.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.35" y1="-196.925" x2="-87.15" y2="-177.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.15" y1="-202" x2="-87.35" y2="-196.925" width="0" layer="19" extent="1-1"/>
+<wire x1="-107.212" y1="-203.31" x2="-87.15" y2="-202" width="0" layer="19" extent="1-1"/>
+<wire x1="-117.65" y1="-212" x2="-107.212" y2="-203.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-117.65" y1="-215.5" x2="-117.65" y2="-212" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.5" y1="-123" x2="-46.5" y2="-158.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.5" y1="-123" x2="-23.5" y2="-123" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.35" y1="-104.5" x2="-7.5" y2="-123" width="0" layer="19" extent="1-1"/>
+<wire x1="1.77" y1="-16" x2="-2.35" y2="-104.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+12V">
-<contactref element="R7" pad="1"/>
-<contactref element="R1" pad="2"/>
-<wire x1="-0.65" y1="-80" x2="-2.35" y2="-115" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$11">
-<contactref element="Q1" pad="3"/>
-<contactref element="R7" pad="2"/>
-<contactref element="Q2" pad="1"/>
-<contactref element="R8" pad="1"/>
-<wire x1="-2.35" y1="-118.5" x2="-2.15" y2="-123.925" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.65" y1="-115" x2="-2.35" y2="-118.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.5" y1="-97.575" x2="-0.65" y2="-115" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$2">
-<contactref element="R1" pad="1"/>
-<contactref element="D1" pad="A"/>
-<wire x1="-0.77" y1="-16" x2="-2.35" y2="-80" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$12">
-<contactref element="D1" pad="K"/>
-<contactref element="Q2" pad="3"/>
-<wire x1="1.77" y1="-16" x2="-1.5" y2="-122.075" width="0" layer="19" extent="1-1"/>
+<contactref element="S1" pad="2"/>
+<contactref element="S1" pad="1"/>
+<contactref element="J4" pad="4"/>
+<contactref element="J4" pad="2"/>
+<contactref element="J5" pad="3"/>
+<contactref element="J5" pad="1"/>
+<contactref element="Q1" pad="2"/>
+<contactref element="IC3" pad="14"/>
+<wire x1="-34.03" y1="-169.35" x2="-39.11" y2="-169.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.47" y1="-158.85" x2="-34.03" y2="-169.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.39" y1="-158.85" x2="-22.47" y2="-158.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-101.788" y1="-195.69" x2="-39.11" y2="-169.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-110.72" y1="-202.8" x2="-101.788" y2="-195.69" width="0" layer="19" extent="1-1"/>
+<wire x1="0.25" y1="-11.75" x2="-17.39" y2="-158.85" width="0" layer="19" extent="1-1"/>
+<wire x1="0.25" y1="-5.25" x2="0.25" y2="-11.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="D5" pad="K"/>
@@ -723,18 +1078,101 @@ design rules under a new name.</description>
 <wire x1="1.77" y1="-30" x2="1.77" y2="-37" width="0" layer="19" extent="1-1"/>
 <wire x1="1.77" y1="-23" x2="1.77" y2="-30" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$14">
+<signal name="N$16">
 <contactref element="D10" pad="C"/>
 <contactref element="D9" pad="C"/>
 <contactref element="D8" pad="C"/>
 <contactref element="D7" pad="C"/>
-<contactref element="D6" pad="C"/>
-<contactref element="S1" pad="2"/>
+<contactref element="S1" pad="4"/>
+<contactref element="S1" pad="3"/>
+<contactref element="R1" pad="1"/>
+<wire x1="-1.3" y1="-74.5" x2="-2.35" y2="-80" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.3" y1="-68.5" x2="-1.3" y2="-74.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.3" y1="-62.5" x2="-1.3" y2="-68.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.3" y1="-56.5" x2="-1.3" y2="-62.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.3" y1="-50.5" x2="-1.3" y2="-56.5" width="0" layer="19" extent="1-1"/>
-<wire x1="0.25" y1="-5.25" x2="-1.3" y2="-50.5" width="0" layer="19" extent="1-1"/>
+<wire x1="4.75" y1="-11.75" x2="-1.3" y2="-56.5" width="0" layer="19" extent="1-1"/>
+<wire x1="4.75" y1="-5.25" x2="4.75" y2="-11.75" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$19">
+<contactref element="J5" pad="4"/>
+<contactref element="J5" pad="2"/>
+<contactref element="Q4" pad="2"/>
+<contactref element="D11" pad="C"/>
+<wire x1="-87.8" y1="-183" x2="-80.22" y2="-173.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.97" y1="-169.35" x2="-80.22" y2="-173.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.89" y1="-169.35" x2="-29.97" y2="-169.35" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$18">
+<contactref element="J1" pad="3"/>
+<contactref element="Q4" pad="3"/>
+<wire x1="-15.9" y1="-123" x2="-82.5" y2="-167" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$20">
+<contactref element="D11" pad="A"/>
+<contactref element="Q4" pad="1"/>
+<contactref element="R10" pad="1"/>
+<wire x1="-88.85" y1="-177.5" x2="-84.2" y2="-183" width="0" layer="19" extent="1-1"/>
+<wire x1="-84.78" y1="-173.3" x2="-88.85" y2="-177.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$23">
+<contactref element="J4" pad="3"/>
+<contactref element="J4" pad="1"/>
+<contactref element="J2" pad="2"/>
+<wire x1="-26.53" y1="-158.85" x2="-31.61" y2="-158.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.7" y1="-123" x2="-26.53" y2="-158.85" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VCC">
+<contactref element="J9" pad="2"/>
+<contactref element="J8" pad="2"/>
+<contactref element="J7" pad="2"/>
+<contactref element="J6" pad="2"/>
+<contactref element="D6" pad="C"/>
+<contactref element="Q1" pad="3"/>
+<wire x1="-64.5" y1="-154.1" x2="-73.5" y2="-154.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.5" y1="-153.6" x2="-64.5" y2="-154.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.5" y1="-153.1" x2="-55.5" y2="-153.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-113" y1="-196.5" x2="-73.5" y2="-154.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.3" y1="-50.5" x2="-46.5" y2="-153.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="Q6" pad="3"/>
+<contactref element="R1" pad="2"/>
+<contactref element="D1" pad="A"/>
+<wire x1="-0.77" y1="-16" x2="-0.65" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="-88" y1="-195.075" x2="-0.65" y2="-80" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="D6" pad="A"/>
+<contactref element="R6" pad="2"/>
+<wire x1="2.3" y1="-50.5" x2="-0.65" y2="-104.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A_OFF">
+<contactref element="IC3" pad="5"/>
+<contactref element="IC3" pad="6"/>
+<contactref element="IC3" pad="3"/>
+<contactref element="R8" pad="2"/>
+<wire x1="-107.212" y1="-202.04" x2="-117.65" y2="-219" width="0" layer="19" extent="1-1"/>
+<wire x1="-107.212" y1="-200.77" x2="-107.212" y2="-202.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-107.212" y1="-198.23" x2="-107.212" y2="-200.77" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A_ON">
+<contactref element="IC3" pad="4"/>
+<contactref element="R7" pad="2"/>
+<wire x1="-107.212" y1="-199.5" x2="-117.65" y2="-207" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<contactref element="C2" pad="1"/>
+<contactref element="IC3" pad="1"/>
+<contactref element="IC3" pad="2"/>
+<contactref element="R7" pad="1"/>
+<wire x1="-119.35" y1="-207" x2="-119.35" y2="-215.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-107.212" y1="-196.96" x2="-119.35" y2="-207" width="0" layer="19" extent="1-1"/>
+<wire x1="-107.212" y1="-195.69" x2="-107.212" y2="-196.96" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SIG">
+<contactref element="R8" pad="1"/>
+<contactref element="C1" pad="1"/>
+<wire x1="-119.35" y1="-212" x2="-119.35" y2="-219" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
