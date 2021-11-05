@@ -636,9 +636,8 @@ design rules under a new name.</description>
 <signal name="N$2">
 <contactref element="J5" pad="2"/>
 <contactref element="J1" pad="2"/>
-<wire x1="-36.975" y1="18.0457" x2="-36.975" y2="18.188" width="0.25" layer="1"/>
-<wire x1="-36.975" y1="18.188" x2="-36.975" y2="13.755" width="0.25" layer="1"/>
-<wire x1="-36.975" y1="13.755" x2="-35.81" y2="12.59" width="0.25" layer="1"/>
+<wire x1="-35.81" y1="12.59" x2="-36.975" y2="13.755" width="0.25" layer="1"/>
+<wire x1="-36.975" y1="13.755" x2="-36.975" y2="18.188" width="0.25" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="J6" pad="1"/>
@@ -745,6 +744,24 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="4,1,dcae0fbdce1bdc7e"/>
+<approved hash="4,1,0450e0346ddd5769"/>
+<approved hash="4,1,b867249b74cb34f9"/>
+<approved hash="4,1,bded039290383999"/>
+<approved hash="4,1,a3940859175dd33e"/>
+<approved hash="4,1,9d66457de89fc578"/>
+<approved hash="4,1,35e0251f76f76a95"/>
+<approved hash="4,1,d2ec329abf758228"/>
+<approved hash="4,16,0450e0346ddd5769"/>
+<approved hash="4,16,b867249b74cb34f9"/>
+<approved hash="4,16,bded039290383999"/>
+<approved hash="4,16,a3940859175dd33e"/>
+<approved hash="4,16,9d66457de89fc578"/>
+<approved hash="4,16,35e0251f76f76a95"/>
+<approved hash="4,16,d2ec329abf758228"/>
+<approved hash="4,16,dcae0fbdce1bdc7e"/>
+</errors>
 </board>
 </drawing>
 <compatibility>

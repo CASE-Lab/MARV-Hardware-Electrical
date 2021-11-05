@@ -287,12 +287,13 @@ UsedLibrary="C:/Users/Viktor/Documents/GitHub/MARV-Hardware-Electrical/OCU - Ope
 UsedLibrary="libs/39-30-3035.lbr"
 UsedLibrary="libs/39-30-3046.lbr"
 UsedLibrary="libs/3522-2.lbr"
-UsedLibrary="libs/LTC2955CTS8-1#TRMPBF.lbr"
+UsedLibrary="libs/LTC2950ITS8-2#TRMPBF.lbr"
+UsedLibrary="libs/39-30-0020.lbr"
 
 [Win_1]
 Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="1920 1080"
+Screen="2843 2520"
 Window="Win_1"

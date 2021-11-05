@@ -187,7 +187,7 @@
 <text x="-61.75" y="17.5" size="1.016" layer="21" ratio="10" align="center">UP_BTN</text>
 <text x="-59.25" y="15.75" size="1.016" layer="21" ratio="10" align="center">DW_BTN</text>
 <text x="-40.5" y="28" size="1.016" layer="21" ratio="10" rot="R90" align="center">WHEEL</text>
-<text x="-63" y="-21.25" size="1.016" layer="21" ratio="10" rot="R90" align="center">MARV - OCU Buttons Adapter
+<text x="-62" y="-21.25" size="1.016" layer="21" ratio="10" rot="R90" align="center">MARV - OCU Buttons Adapter
 Rev1, 21.11.03</text>
 </plain>
 <libraries>

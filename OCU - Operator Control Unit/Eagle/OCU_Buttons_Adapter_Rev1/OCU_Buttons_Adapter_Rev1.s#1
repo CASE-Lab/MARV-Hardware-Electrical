@@ -830,6 +830,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7884842P"&gt; Datashe
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,132.569,89.431,FRAME1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
