@@ -1440,12 +1440,17 @@ fuse - 7.5A</text>
 <text x="20.32" y="241.3" size="3.81" layer="94">Battery status LEDs</text>
 <text x="193.04" y="241.3" size="3.81" layer="94">Power input/output, fuses</text>
 <text x="20.32" y="111.76" size="3.81" layer="94">Pushbutton controller/voltage monitor</text>
+<wire x1="193.04" y1="109.22" x2="276.86" y2="109.22" width="0.1524" layer="94" style="longdash"/>
+<wire x1="276.86" y1="109.22" x2="276.86" y2="25.4" width="0.1524" layer="94" style="longdash"/>
+<wire x1="276.86" y1="25.4" x2="193.04" y2="25.4" width="0.1524" layer="94" style="longdash"/>
+<wire x1="193.04" y1="25.4" x2="193.04" y2="109.22" width="0.1524" layer="94" style="longdash"/>
+<text x="193.04" y="111.76" size="3.81" layer="94">Mounting holes</text>
 </plain>
 <instances>
-<instance part="HOLE1" gate="G$1" x="370.84" y="243.84" smashed="yes"/>
-<instance part="HOLE2" gate="G$1" x="347.98" y="243.84" smashed="yes"/>
-<instance part="HOLE3" gate="G$1" x="347.98" y="220.98" smashed="yes"/>
-<instance part="HOLE4" gate="G$1" x="370.84" y="220.98" smashed="yes"/>
+<instance part="HOLE1" gate="G$1" x="248.92" y="83.82" smashed="yes"/>
+<instance part="HOLE2" gate="G$1" x="220.98" y="83.82" smashed="yes"/>
+<instance part="HOLE3" gate="G$1" x="220.98" y="55.88" smashed="yes"/>
+<instance part="HOLE4" gate="G$1" x="248.92" y="55.88" smashed="yes"/>
 <instance part="S1" gate="G$1" x="45.72" y="220.98" smashed="yes">
 <attribute name="NAME" x="41.91" y="224.79" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="41.91" y="215.9" size="1.27" layer="95" ratio="10"/>

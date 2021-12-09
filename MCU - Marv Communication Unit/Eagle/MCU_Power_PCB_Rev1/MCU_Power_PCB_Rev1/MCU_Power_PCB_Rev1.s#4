@@ -1445,7 +1445,7 @@ fuse - 7.5A</text>
 <wire x1="276.86" y1="25.4" x2="193.04" y2="25.4" width="0.1524" layer="94" style="longdash"/>
 <wire x1="193.04" y1="25.4" x2="193.04" y2="109.22" width="0.1524" layer="94" style="longdash"/>
 <text x="193.04" y="111.76" size="3.81" layer="94">Mounting holes</text>
-<text x="342.9" y="20.32" size="2.54" layer="94">Viktor Lindström</text>
+<text x="344.17" y="20.32" size="2.54" layer="94">Viktor Lindström</text>
 <text x="292.1" y="10.16" size="5.715" layer="94">CHALMERS</text>
 </plain>
 <instances>

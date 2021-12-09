@@ -1418,11 +1418,13 @@ IC cuts power under 0.6V !KILL</text>
 <text x="210.82" y="157.48" size="1.778" layer="97">Charging port
 fuse - 7.5A</text>
 <text x="175.26" y="213.36" size="1.778" layer="97">1. GND
-2. VCC
+2. 12V
 3. NC</text>
 <text x="175.26" y="139.7" size="1.778" layer="97">1. GND
 2. NC
-3. VCC</text>
+3. 12V</text>
+<text x="248.92" y="175.26" size="1.778" layer="97">1. GND
+2. VCC</text>
 </plain>
 <instances>
 <instance part="HOLE1" gate="G$1" x="370.84" y="243.84" smashed="yes"/>
