@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIC1555YM5-TR
+D IttyBitty® CMOS RC timer/oscillator  +2.7V to +18V operation
+K 555 timer
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC1555-57-IttyBitty-RC-Timer-Oscillator-DS20005730B.pdf
+$ENDCMP
+#
+$CMP TPS25940x-Q1
+D 2.7-V to 18-V eFuse with Integrated Short-to-Battery Protection
+K eFuse
+F http://www.ti.com/lit/ds/symlink/tps25940-q1.pdf
+$ENDCMP
+#
+#End Doc Library
